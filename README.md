@@ -66,6 +66,7 @@ $$
 - Run the `ERApp.py` file, and enjoy the real time emotion recognition.
 - you might need retrain the model on your own dataset to get better results.
 
+#TODO : Add notebook for testing the model on colab
 
 ## Future Work
 - Train the model on a larger dataset.
