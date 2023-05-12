@@ -7,12 +7,12 @@ import cv2
 
 
 class_dict = {
-    "no face": 0,
-    "happy": 1,
-    "sad": 2,
-    "natural": 3,
-    "surprised": 4,
-    "angry": 5,
+    "No Face": 0,
+    "Happy": 1,
+    "Sad": 2,
+    "Neutral": 3,
+    "Surprised": 4,
+    "Angry": 5,
 }
 
 reverse_dict = {v: k for k, v in class_dict.items()}
