@@ -7,6 +7,14 @@ The model is trained on 168 of personal taken images from me and my collagues, t
 
 Measuring the accuracy of the model is irrlavent as the model is trained on a very small dataset, all the dataset were created using my labtop camera. although the model is trained on a small dataset, it can still detect the emotion of the person in real time.
 
+
+## Libraries
+- Tensorflow
+- OpenCV
+- Labelme
+- Albumentation
+- Tkinter
+
 ## Proof of Concept
 
 #TODO add gif for the app running
