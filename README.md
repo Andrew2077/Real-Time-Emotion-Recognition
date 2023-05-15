@@ -21,6 +21,8 @@ Measuring the accuracy of the model is irrlavent as the model is trained on a ve
 
 ## Tracked Loss - Modified Yolo v1
 I have modified the loss function of Yolo v1 to fit my dataset, to detect and classify one face in the captured image.
+
+
 $$
 CenterLoss = \sum{(X_{True}- X_{Pred} )^2 + (Y_{True} - Y_{Pred})^2 }
 $$
