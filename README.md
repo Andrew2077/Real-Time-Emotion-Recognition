@@ -16,8 +16,19 @@ Measuring the accuracy of the model is irrlavent as the model is trained on a ve
 - Tkinter
 
 ## Proof of Concept
+- Real time Facial Tracking proof of concept
 
-#TODO add gif for the app running
+<video width="640" height="480" controls>
+  <source src="misc/Tracking.mp4" type="video/mp4">
+</video>
+
+- Real time Emotion Recognition proof of concept
+
+<video width="640" height="480" controls>
+  <source src="misc/Recognition.mp4" type="video/mp4">
+</video>
+
+
 
 ## Tracked Loss - Modified Yolo v1
 I have modified the loss function of Yolo v1 to fit my dataset, to detect and classify one face in the captured image.
