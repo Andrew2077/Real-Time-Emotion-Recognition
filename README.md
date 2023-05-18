@@ -1,7 +1,9 @@
 # RealTime-Emotion-Recogition-From-Facial-Expression
 
+- Project Presentaion on Tome: [Link](https://tome.app/sbme/live-emotion-recognition-using-facial-expressions-clgmutiuf03le3s42v86fsuj7) 
 ## Introduction
 This project is about real time emotion recognition from facial expression. The model is trained on Custome dataset. The model is trained on 5 emotions: Angry, Happy, Sad, Surprise, Neutral.
+
 
 The model is trained on 168 of personal taken images from me and my collagues, the data were annotated through `labelme` and augmented using `Albumentation`
 
