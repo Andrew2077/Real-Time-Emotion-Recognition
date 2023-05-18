@@ -56,8 +56,14 @@ $$
 
 
 ## Model Architecture
-- VGG16 is used as the backbone of the model, weights are initialized with imagenet weights.
-- two MLPs are used to predict the bounding box and the class of the face in the image.
+- VGG16 is used as the backbone of the model, weights are initialized with imagenet weights - `14.7` million parameters.
+- two MLPs are used to predict the bounding box and the class of the face in the image - `1.05` million parameters each.
+  - Regression part of the model is used to predict the bounding box of the face in the image.
+  - Classification part of the model is used to predict the class of the face in the image.
+
+- over all the model has `17.8` million parameters.
+
+![Model Architecture](misc/model.png)
 
 ## Dataset
 - The dataset is created using my labtop camera, 168 images are taken from me and my collagues.
@@ -72,6 +78,7 @@ $$
   - Adam Optimizer with lr = 0.0001
   - Loss Function: Modified Yolo v1 Loss
   - Early Stopping: 25 epochs
+- Real time inference is done on my Labtop with GTX 1650, with 20+ FPS.
 
 
 ## Real Time Recognition
